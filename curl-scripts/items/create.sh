@@ -9,7 +9,8 @@ curl "http://localhost:4741/items" \
     "item": {
       "name": "'"${NAME}"'",
       "info": "'"${INFO}"'",
-      "budget": "'"${BUDGET}"'"
+      "budget": "'"${BUDGET}"'",
+      "imageurl": "'"${IMAGEURL}"'"
     }
   }'
 
