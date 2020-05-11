@@ -1,5 +1,5 @@
 class ItemsController < ApplicationController
-  before_action :set_item, only: %i[show update destroy]
+  before_action :set_item, only: [:show, :update, :destroy]
 
   # GET /items
   def index
