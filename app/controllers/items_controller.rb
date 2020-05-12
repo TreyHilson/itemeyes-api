@@ -1,10 +1,9 @@
-# frozen_string_literal: true
-
 class ItemsController < OpenReadController
   before_action :set_item, only: %i[show update destroy]
+
   # GET /items
   def index
-    @items = Item.all
+    @items = current_user.items.all
 
     render json: @items
   end
@@ -16,12 +15,13 @@ class ItemsController < OpenReadController
 
   # POST /items
   def create
-    @item = Item.new(item_params)
+    @item = current_user.items.build(item_params)
 
     if @item.save
-      render json: @item, status: :created, location: @item
+      render json: @item, status: :created
     else
-      render json: @item.errors, status: :unprocessable_entity
+    render json: @item.errors, status: :unprocessable_entity
+
     end
   end
 
@@ -40,14 +40,14 @@ class ItemsController < OpenReadController
   end
 
   private
-
   # Use callbacks to share common setup or constraints between actions.
   def set_item
-    @item = Item.find(params[:id])
+    @item = current_user.items.find(params[:id])
+
   end
 
   # Only allow a trusted parameter "white list" through.
   def item_params
-    params.require(:item).permit(:name, :info, :budget, :imageurl)
+  params.require(:item).permit(:name, :info, :budget, :imageurl)
   end
 end
