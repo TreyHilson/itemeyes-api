@@ -6,8 +6,6 @@ Api Repository: https://github.com/TreyHilson/itemeyes-api
 
 Development URL: https://rocky-falls-89890.herokuapp.com/
 
-
-
 Wireframe - https://imgur.com/8pKGwnl | https://imgur.com/Fet0oOI
 ERD - https://imgur.com/0KDQqGl
 </p>
@@ -20,7 +18,7 @@ Future itirations would allow user to add a method to conctact the user.
 This would be if the user is looking to buy or sell items listed.
 </p>
 
-Concept:
+## Concept: ##
 <p>
 Application where users can add desired items to list to visualize their goals and budget.
 This could be fun for niche things or items of rarity that don’t normally come up in the regular listings. App will utilize react.js and ability to insert image url.
