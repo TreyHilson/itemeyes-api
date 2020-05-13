@@ -37,6 +37,7 @@ As a signed in user, I would like to update my own item prospects .
 As a signed in user, I would like to delete my own items
 </p>
 
+<p>
 Action	  What It Does	HTTP Verb	URL
 index	    Return a list of all resource instances.	GET	/items
 create	  Create a new instance of a resource.	POST	/items
@@ -49,10 +50,11 @@ POST	/sign-up	users#signup
 POST	/sign-in	users#signin
 PATCH	/change-password	users#changepw
 DELETE	/sign-out	users#signout
+</p>
 
 
 ## Installation (for developers) ##
-
+<p>
 Fork & Clone or download zip for development files.
 Install dependencies with bundle install.
 
@@ -62,7 +64,7 @@ bin/rails console opens a REPL that pre-loads the API.
 bin/rails db opens your database client and loads the correct database.
 bin/rails server starts the API.
 curl-scripts/*.sh run various curl commands to test the API. See below.
-
+</p>
 
 ## Technology Used ##
 
