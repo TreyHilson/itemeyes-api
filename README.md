@@ -19,36 +19,33 @@ This would be if the user is looking to buy or sell items listed.
 </p>
 
 ## Concept: ##
-<p>
-Application where users can add desired items to list to visualize their goals and budget.
-This could be fun for niche things or items of rarity that don’t normally come up in the regular listings. App will utilize react.js and ability to insert image url.
+<p> Application where users can add desired items to list to visualize their goals and budget.
+This could be fun for niche things or items of rarity that don’t normally come up in the regular listings. App will utilize react.js and ability to insert image url.</p>
 User stories -
-As an unregistered user, I would like to sign up with email and password.
-As an unregistered user, I would like to see items listed
-As a registered user, I would like to sign in with email and password.
-As a signed in user, I would like to change password.
-As a signed in user, I would like to sign out.
-As a signed in user, I would like to create an item posting
-As a signed in user, I would like to create my own item with image from image url
+<p>As an unregistered user, I would like to sign up with email and password.</p>
+<p>As an unregistered user, I would like to see items listed</p>
+<p>As a registered user, I would like to sign in with email and password.</p>
+<p>As a signed in user, I would like to change password.</p>
+<p>As a signed in user, I would like to sign out.</p>
+<p>As a signed in user, I would like to create an item posting</p>
+As a signed in user, I would like to create my own item with image from image url</p>
 
-As a signed in user, I would like to update my own item prospects .
-As a signed in user, I would like to delete my own items
-</p>
+<p>As a signed in user, I would like to update my own item prospects .</p>
+<p>As a signed in user, I would like to delete my own items</p>
 
-<p>
-Action	  What It Does	HTTP Verb	URL
-index	    Return a list of all resource instances.	GET	/items
-create	  Create a new instance of a resource.	POST	/items
-show	    Return a single instance of a resource.	GET	/items/:id
-update	  Update a single instance of a resource.	PATCH	/items/:id
-destroy	  Destroy a single instance of a resource. DELETE	/items/:id
 
-Verb	URI Pattern	Controller#Action
-POST	/sign-up	users#signup
-POST	/sign-in	users#signin
-PATCH	/change-password	users#changepw
-DELETE	/sign-out	users#signout
-</p>
+<p> Action	  What It Does	HTTP Verb	URL</p>
+<p> index	    Return a list of all resource instances.	GET	/items</p>
+<p> create	  Create a new instance of a resource.	POST	/items</p>
+<p> show	    Return a single instance of a resource.	GET	/items/:id</p>
+<p> destroy	  Destroy a single instance of a resource. DELETE	/items/:id
+
+<p> Verb	URI Pattern	Controller#Action</p>
+<p> POST	/sign-up	users#signup</p>
+<p> POST	/sign-in	users#signin</p>
+<p> PATCH	/change-password	users#changepw</p>
+<p> DELETE	/sign-out	users#signout</p>
+
 
 
 ## Installation (for developers) ##
