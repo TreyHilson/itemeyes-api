@@ -33,14 +33,14 @@ As a signed in user, I would like to create my own item with image from image ur
 <p>As a signed in user, I would like to update my own item prospects .</p>
 <p>As a signed in user, I would like to delete my own items</p>
 
+# Routes # 
 
-<p> Action	  What It Does	HTTP Verb	URL</p>
-<p> index	    Return a list of all resource instances.	GET	/items</p>
-<p> create	  Create a new instance of a resource.	POST	/items</p>
-<p> show	    Return a single instance of a resource.	GET	/items/:id</p>
-<p> destroy	  Destroy a single instance of a resource. DELETE	/items/:id
+<p> Index	    Return a list of all resource instances.	GET	/items</p>
+<p> Create	  Create a new instance of a resource.	POST	/items</p>
+<p> Show	    Return a single instance of a resource.	GET	/items/:id</p>
+<p> Destroy	  Destroy a single instance of a resource. DELETE	/items/:id
 
-<p> Verb	URI Pattern	Controller#Action</p>
+
 <p> POST	/sign-up	users#signup</p>
 <p> POST	/sign-in	users#signin</p>
 <p> PATCH	/change-password	users#changepw</p>
