@@ -1,4 +1,4 @@
-<p>
+# Important Links
 Front End application: https://treyhilson.github.io/itemeyes-client/#/
 
 Front End Repository:https://github.com/TreyHilson/itemeyes-client
@@ -18,22 +18,23 @@ Future itirations would allow user to add a method to conctact the user.
 This would be if the user is looking to buy or sell items listed.
 </p>
 
-## Concept: ##
-<p> Application where users can add desired items to list to visualize their goals and budget.
+# Concept
+<p>Application where users can add desired items to list to visualize their goals and budget.
 This could be fun for niche things or items of rarity that don’t normally come up in the regular listings. App will utilize react.js and ability to insert image url.</p>
-User stories -
-<p>As an unregistered user, I would like to sign up with email and password.</p>
-<p>As an unregistered user, I would like to see items listed</p>
-<p>As a registered user, I would like to sign in with email and password.</p>
-<p>As a signed in user, I would like to change password.</p>
-<p>As a signed in user, I would like to sign out.</p>
-<p>As a signed in user, I would like to create an item posting</p>
-As a signed in user, I would like to create my own item with image from image url</p>
 
-<p>As a signed in user, I would like to update my own item prospects .</p>
-<p>As a signed in user, I would like to delete my own items</p>
+# User stories
+-As an unregistered user, I would like to sign up with email and password.
+-As an unregistered user, I would like to see items listed.
+-As a registered user, I would like to sign in with email and password.
+-As a signed in user, I would like to change password.
+-As a signed in user, I would like to sign out.
+-As a signed in user, I would like to create an item posting.
+-As a signed in user, I would like to create my own item with image from image url.
+-As a signed in user, I would like to update my own item prospects .
+-As a signed in user, I would like to delete my own item.
 
-# Routes #
+
+# Routes
 
 <table>
   <tr>
@@ -65,8 +66,7 @@ As a signed in user, I would like to create my own item with image from image ur
     <td>/items/:id</td>
 
   </tr>
-</table>
-
+</tab
 
 
 ## Installation (for developers) ##
