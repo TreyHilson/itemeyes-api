@@ -33,18 +33,39 @@ As a signed in user, I would like to create my own item with image from image ur
 <p>As a signed in user, I would like to update my own item prospects .</p>
 <p>As a signed in user, I would like to delete my own items</p>
 
-# Routes # 
+# Routes #
 
-<p> Index	    Return a list of all resource instances.	GET	/items</p>
-<p> Create	  Create a new instance of a resource.	POST	/items</p>
-<p> Show	    Return a single instance of a resource.	GET	/items/:id</p>
-<p> Destroy	  Destroy a single instance of a resource. DELETE	/items/:id
+<table>
+  <tr>
+    <th>Verb</th>
+    <th>URI Pattern</th>
+  </tr>
+  <tr>
+    <td>GET</td>
+    <td>/items</td>
 
+  </tr>
+  <tr>
+    <td>GET</td>
+    <td>/items/:id</td>
 
-<p> POST	/sign-up	users#signup</p>
-<p> POST	/sign-in	users#signin</p>
-<p> PATCH	/change-password	users#changepw</p>
-<p> DELETE	/sign-out	users#signout</p>
+  </tr>
+  <tr>
+    <td>POST</td>
+    <td>/items</td>
+
+  </tr>
+  <tr>
+    <td>PATCH</td>
+    <td>/items/:id</td>
+
+  </tr>
+  <tr>
+    <td>DELETE</td>
+    <td>/items/:id</td>
+
+  </tr>
+</table>
 
 
 
